@@ -99,6 +99,7 @@ a.btn:hover {
   justify-content: space-between;
   align-items: center;
   min-height: 80px;
+  padding: 1rem 0;
 }
 
 .navbar .brand-title a img {
