@@ -193,4 +193,17 @@
     max-width: 45%;
     height: 400px;
   }
+
+  /** Featured Delicious Section  */
+  .featured-delicacies-content h2 {
+    font-size: 30px;
+  }
+
+  .featured-delicacies-content h5 {
+    font-size: 15px;
+  }
+
+  .featured-delicacies-content p {
+    font-size: 13.6px;
+  }
 }
