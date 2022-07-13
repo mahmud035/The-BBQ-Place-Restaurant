@@ -294,7 +294,42 @@ header#home-page-header {
   gap: 2rem;
 }
 
-.bbq-img .img-1,
-.bbq-img .img-2 {
+/**  Featured On Section */
+.featured-on-container {
+  padding: 1rem 5rem 5rem;
+  height: fit-content;
+  display: flex;
+  /* gap: 1rem; */
+  align-items: center;
+  justify-content: center;
+}
+
+.featured-text {
   flex: 1;
+}
+
+.featured-items {
+  flex: 4;
+}
+
+.featured-text h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.featured-items {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.featured-items img {
+  flex: 1;
+  max-width: 150px;
+  height: 75px;
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+.featured-items img:hover {
+  filter: grayscale(0);
 }
