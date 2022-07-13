@@ -57,11 +57,55 @@
   }
 }
 
+@media (max-width: 992px) {
+  /** Header */
+  .header-content h1 {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  /** Header */
+  .header-content h3 {
+    font-size: 28px;
+  }
+
+  .header-content h1 {
+    font-size: 60px;
+  }
+
+  .header-content p {
+    display: none;
+  }
+
+  .header-content .btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding-top: 4rem;
+  }
+
+  a.btn {
+    font-size: 13.7px;
+  }
+}
+
 @media (max-width: 576px) {
   /** Navigation  */
   .navbar .brand-title a img {
     width: 120px;
     height: 40px;
     margin-left: 1.5rem;
+  }
+
+  /** Header */
+  .header-content h3 {
+    font-size: 22px;
+  }
+
+  .header-content h1 {
+    font-size: 40px;
+    font-weight: 500;
   }
 }

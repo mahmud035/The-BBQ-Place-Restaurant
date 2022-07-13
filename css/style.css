@@ -170,3 +170,67 @@ a.btn:hover {
   background-color: var(--btn-bg);
   border-radius: 10px;
 }
+
+/** Header */
+header#home-page-header {
+  min-height: calc(100vh - 80px);
+  background: url(../images/home-bg-1.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.35);
+  background-blend-mode: overlay;
+  clip-path: polygon(
+    50% 0%,
+    100% 0,
+    100% 35%,
+    100% 100%,
+    64% 100%,
+    46% 96%,
+    29% 100%,
+    0 100%,
+    0 0
+  );
+  position: relative;
+}
+
+.header-content {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+
+.header-content img {
+  margin-inline: auto;
+}
+
+.header-content h3 {
+  font-size: 30px;
+  color: var(--btn-bg);
+  font-weight: 500;
+  padding: 1.5rem 0 14px;
+}
+
+.header-content h1 {
+  font-size: 100px;
+  color: var(--text-white);
+  font-weight: 600;
+}
+
+.header-content p {
+  color: var(--text-white);
+  font-size: 15px;
+  line-height: 26px;
+  padding: 2rem 0 3rem;
+}
+
+.header-content a.btn-transparent {
+  background-color: transparent;
+  border: 2px solid var(--btn-bg);
+  margin-left: 14px;
+}
+
+.header-content a.btn-transparent:hover {
+  background-color: var(--btn-bg);
+}
