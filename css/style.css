@@ -98,12 +98,10 @@ a.btn:hover {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
+  min-height: 80px;
 }
 
 .navbar .brand-title a img {
-  max-width: 180px;
-  max-height: 50;
   cursor: pointer;
   object-fit: cover;
 }
