@@ -137,10 +137,8 @@
 
 @media (max-width: 576px) {
   /** Navigation  */
-  .navbar .brand-title a img {
-    width: 120px;
-    height: 40px;
-    padding-left: 2.5rem;
+  .brand-title {
+    flex: 1;
   }
 
   /** Header */
