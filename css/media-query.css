@@ -1,5 +1,17 @@
 /** ==========> Media Query <=========== */
 
+@media (max-width: 1230px) {
+  /** BBQ Place Section  */
+  .bbq-content-container {
+    grid-template-columns: auto;
+    gap: 3.5rem;
+  }
+
+  .bbq-img {
+    justify-content: center;
+  }
+}
+
 @media (max-width: 1100px) {
   /** Navigation */
   .navbar.container {
@@ -53,7 +65,7 @@
 
   .navbar .brand-title a img {
     width: 150px;
-    margin-left: 2rem;
+    padding-left: 2rem;
   }
 }
 
@@ -61,6 +73,15 @@
   /** Header */
   .header-content h1 {
     font-size: 80px;
+  }
+}
+
+@media (max-width: 850px) {
+  /** BBQ Place Section  */
+  .bbq-img img {
+    max-width: 70%;
+    height: 500px;
+    object-fit: cover;
   }
 }
 
@@ -91,12 +112,35 @@
   }
 }
 
+@media (max-width: 700px) {
+  /** BBQ Place Section  */
+  .bbq-info h2 {
+    font-size: 30px;
+  }
+
+  .bbq-info h4 {
+    font-size: 15px;
+  }
+
+  .bbq-info p {
+    font-size: 13.6px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .bbq-content-container.container {
+    width: 100%;
+    padding: 8rem 1.5rem;
+  }
+}
+
 @media (max-width: 576px) {
   /** Navigation  */
   .navbar .brand-title a img {
     width: 120px;
     height: 40px;
-    margin-left: 1.5rem;
+    padding-left: 2.5rem;
   }
 
   /** Header */
@@ -107,5 +151,16 @@
   .header-content h1 {
     font-size: 40px;
     font-weight: 500;
+  }
+
+  /** BBQ Place Section  */
+  .bbq-content-container .bbq-img {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .bbq-img img {
+    max-width: 45%;
+    height: 400px;
   }
 }
