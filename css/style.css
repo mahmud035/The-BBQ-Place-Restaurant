@@ -382,3 +382,54 @@ header#home-page-header {
   color: #ffffffcc;
   padding: 2rem 0 1rem;
 }
+
+/** Food Item Section */
+.food-item-area {
+  padding: 10rem 0;
+  min-height: 100vh;
+  background: url(../images/home-blackboard-bg-img.png) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: overlay;
+}
+
+.food-item-container {
+  padding: 1rem;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(445px, 1fr));
+  gap: 4rem;
+}
+
+.food-item {
+  display: flex;
+  align-items: center;
+}
+
+.food-info,
+.food-img {
+  flex: 1;
+}
+
+.food-item .food-info h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.food-item .food-info h5 {
+  font-size: 24px;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+.food-item .food-info p {
+  font-size: 15px;
+  color: var(--text-light-dark);
+}
+
+.food-img img {
+  max-width: 235px;
+  max-height: 235px;
+  object-fit: cover;
+}

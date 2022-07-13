@@ -16,6 +16,41 @@
   }
 }
 
+@media (max-width: 1240px) {
+  /** Food Item Section */
+  .food-item-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+  }
+
+  .food-item {
+    flex-direction: column;
+  }
+
+  .food-info {
+    order: 1;
+    text-align: center;
+  }
+
+  .food-item .food-info h3 {
+    font-size: 26px;
+  }
+
+  .food-item .food-info h5 {
+    font-size: 20px;
+  }
+
+  .food-item .food-info p {
+    font-size: 13.6px;
+  }
+
+  .food-img img {
+    max-width: 175px;
+    max-height: 175px;
+    object-fit: cover;
+  }
+}
+
 @media (max-width: 1230px) {
   /** BBQ Place Section  */
   .bbq-content-container {
@@ -138,9 +173,23 @@
     font-size: 25px;
   }
 
-  .featured-items img {
-    max-width: 100px;
-    height: 50px;
+  /** Food Item Section */
+  .food-item-container {
+    gap: 2rem;
+  }
+
+  .food-item .food-info h3 {
+    font-size: 24px;
+  }
+
+  .food-item .food-info h5 {
+    font-size: 20px;
+  }
+
+  .food-img img {
+    max-width: 90%;
+    max-height: 100%;
+    object-fit: cover;
   }
 }
 
@@ -205,5 +254,10 @@
 
   .featured-delicacies-content p {
     font-size: 13.6px;
+  }
+
+  /** Food Item Section */
+  .food-item-container {
+    grid-template-columns: 1fr;
   }
 }
