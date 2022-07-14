@@ -719,3 +719,71 @@ header#about-page-header {
   object-fit: cover;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
+
+/**  About Us Section */
+.about-us-container {
+  padding: 6rem 0;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.about-us-text,
+.about-us-img {
+  flex: 1;
+}
+
+.about-us-text h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.about-us-text h5 {
+  font-size: 17px;
+  font-weight: normal;
+  padding: 1.5rem 0;
+}
+
+.about-us-text .divider {
+  width: 50px;
+  height: 2px;
+  background: var(--btn-bg);
+}
+
+.about-us-text p {
+  font-size: 15px;
+  color: var(--text-light-dark);
+  line-height: 26px;
+  padding: 1.5rem 0;
+}
+
+.about-us-img {
+  position: relative;
+}
+
+.about-us-img img {
+  border-radius: 8px;
+}
+
+.about-us-img .wifi-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--text-white);
+}
+
+.wifi-info i {
+  font-size: 2rem;
+}
+
+.wifi-info h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1rem 0 5px;
+}
+
+.wifi-info p {
+  font-size: 15px;
+}
