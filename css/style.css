@@ -640,7 +640,8 @@ header#home-page-header {
   color: var(--text-white);
 }
 
-/** About Page CSS */
+/** -------------About Page CSS------------- */
+/** Header*/
 header#about-page-header {
   height: calc(80vh - 80px);
   background: url(../images/about-bg-1.jpg) no-repeat;
@@ -928,7 +929,7 @@ header#about-page-header {
 
 /** Review Us Section  */
 .review-us-container {
-  padding: 2rem 1rem 5rem;
+  padding: 2rem 1rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -968,3 +969,5 @@ header#about-page-header {
   opacity: 0.8;
   color: #fff;
 }
+
+/** -------------Menu Page CSS------------- */
