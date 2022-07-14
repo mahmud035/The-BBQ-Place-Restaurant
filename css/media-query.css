@@ -49,6 +49,20 @@
     max-height: 175px;
     object-fit: cover;
   }
+
+  /**  Customer Feedback Section */
+  .feedback-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .feedback-container .feedback > h5 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .customer-info {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 1230px) {
@@ -197,6 +211,12 @@
     max-height: 100%;
     object-fit: cover;
   }
+
+  /**  Customer Feedback Section */
+  .feedback-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
 }
 
 @media (max-width: 700px) {
@@ -301,5 +321,27 @@
 
   .footer-content-container h5 {
     font-size: 17px;
+  }
+
+  /**  Customer Feedback Section */
+  .feedback-heading h2 {
+    font-size: 26px;
+  }
+
+  .feedback-heading > p {
+    font-size: 13.6px;
+    width: 70%;
+  }
+
+  .feedback-container .feedback > h5 {
+    font-size: 17.5px;
+  }
+
+  .customer-info {
+    gap: 1rem;
+  }
+
+  .customer-info > span {
+    font-size: 13.6px;
   }
 }
