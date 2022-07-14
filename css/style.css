@@ -887,6 +887,40 @@ header#about-page-header {
   padding-bottom: 3rem;
 }
 
+.chefs-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem 1rem;
+  justify-items: center;
+  text-align: center;
+}
+
+.chef > img {
+  max-width: 136px;
+  max-height: 136px;
+  object-fit: cover;
+  margin-inline: auto;
+}
+
+.chef-info h3 {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 12px 0 5px;
+}
+
+.chef-info p {
+  font-size: 15px;
+  color: var(--text-light-dark);
+}
+
+.chef-info > img {
+  width: 70px;
+  height: 15px;
+  margin-inline: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .chef-social-icons a {
   background-color: var(--chefs-icons-bg);
   color: var(--btn-bg);
