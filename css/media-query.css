@@ -163,6 +163,17 @@
   .our-resto-container p {
     width: 90%;
   }
+
+  /** Our Food and Value Section */
+  .food-and-value-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .food-policy p,
+  .core-values p {
+    width: 100%;
+  }
 }
 
 @media (max-width: 850px) {
@@ -390,6 +401,17 @@
   }
 
   .about-us-text p {
+    font-size: 13.6px;
+  }
+
+  /** Our Food and Value Section */
+  .food-policy h2,
+  .core-values h2 {
+    font-size: 30px;
+  }
+
+  .food-policy p,
+  .core-values p {
     font-size: 13.6px;
   }
 }

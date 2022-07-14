@@ -787,3 +787,49 @@ header#about-page-header {
 .wifi-info p {
   font-size: 15px;
 }
+
+/** Our Food and Value Section */
+.food-and-value-area {
+  color: var(--text-white);
+  /* min-height: 400px; */
+  /* INFO: No need to use height. Because padding always gives us more background. */
+  padding: 8rem 2rem;
+  background: url(../images/about-bg-2.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: overlay;
+  clip-path: polygon(
+    42% 6%,
+    59% 0,
+    100% 0,
+    100% 100%,
+    62% 99%,
+    46% 95%,
+    28% 100%,
+    0 100%,
+    0 1%,
+    27% 0
+  );
+}
+
+.food-and-value-content {
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: start;
+  gap: 3rem;
+}
+
+.food-policy h2,
+.core-values h2 {
+  font-size: 42px;
+  font-weight: 500;
+}
+
+.food-policy p,
+.core-values p {
+  font-size: 15px;
+  line-height: 26px;
+  padding: 1rem;
+  width: 90%;
+}
