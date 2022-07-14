@@ -490,3 +490,73 @@ header#home-page-header {
   color: var(--text-white);
   padding: 3rem 0;
 }
+
+/** Footer  */
+.footer-area {
+  margin-top: 8rem;
+  background: url(../images/home-bg-4.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+}
+
+.footer-content-container {
+  padding: 2rem 1rem 1rem;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content-container h2 {
+  font-size: 45px;
+  color: var(--text-white);
+  font-weight: 500;
+  padding: 5rem 0 3rem;
+}
+
+.footer-content-container > p {
+  font-size: 15px;
+  color: var(--text-white);
+  line-height: 26px;
+  padding: 2rem 0;
+  width: 70%;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.footer-content-container h5 {
+  color: var(--text-white);
+  font-weight: normal;
+  font-size: 24px;
+  padding: 2rem 0;
+}
+
+.footer-text {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--text-gray);
+  font-size: 15px;
+  padding: 4rem 0 1rem;
+}
+
+.social-icons a {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  color: var(--text-light-dark);
+  margin-right: 10px;
+  padding: 7px 10px;
+  transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+  background: var(--btn-bg);
+  color: var(--text-white);
+}

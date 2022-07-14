@@ -131,6 +131,12 @@
     max-width: 122px;
     height: 60px;
   }
+
+  /** Footer  */
+  .footer-content-container > p {
+    width: 100%;
+    font-size: 13.6px;
+  }
 }
 
 @media (max-width: 850px) {
@@ -207,6 +213,13 @@
     font-size: 13.6px;
     width: 100%;
   }
+
+  /** Footer */
+  .footer-text {
+    gap: 10px;
+    flex-direction: column;
+    font-size: 13.6px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -279,5 +292,14 @@
   .happy-hours-container p {
     font-size: 13.6px;
     padding: 2rem 0 4rem;
+  }
+
+  /** Footer */
+  .footer-content-container h2 {
+    font-size: 40px;
+  }
+
+  .footer-content-container h5 {
+    font-size: 17px;
   }
 }
