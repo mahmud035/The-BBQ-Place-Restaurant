@@ -260,4 +260,24 @@
   .food-item-container {
     grid-template-columns: 1fr;
   }
+
+  /** Happy Hours Section */
+  */ .happy-hours-container img {
+    max-width: 60px;
+    max-height: 60px;
+  }
+
+  .happy-hours-container h5 {
+    font-size: 20px;
+    padding: 2rem 0;
+  }
+
+  .happy-hours-container h2 {
+    font-size: 30px;
+  }
+
+  .happy-hours-container p {
+    font-size: 13.6px;
+    padding: 2rem 0 4rem;
+  }
 }

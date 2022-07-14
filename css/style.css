@@ -340,6 +340,7 @@ header#home-page-header {
   background: url(../images/home-bg-2.jpg) no-repeat;
   background-position: center center;
   background-size: cover;
+  background-attachment: fixed;
   background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: overlay;
   clip-path: polygon(
@@ -432,4 +433,60 @@ header#home-page-header {
   max-width: 235px;
   max-height: 235px;
   object-fit: cover;
+}
+
+/** Happy Hours Section */
+.happy-hours-area {
+  padding: 1rem 0 5rem;
+  background: url(../images/home-bg-3.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+  clip-path: polygon(
+    50% 0%,
+    89% 0,
+    100% 0,
+    100% 100%,
+    63% 100%,
+    47% 96%,
+    29% 100%,
+    0 100%,
+    0 0,
+    16% 0
+  );
+}
+
+.happy-hours-container {
+  padding: 5rem 1rem 4rem;
+  min-height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.happy-hours-container img {
+  max-width: 82px;
+  max-height: 82px;
+}
+
+.happy-hours-container h5 {
+  font-size: 24px;
+  color: var(--text-white);
+  font-weight: 500;
+  padding: 3rem 0 5rem;
+}
+
+.happy-hours-container h2 {
+  font-size: 45px;
+  color: var(--btn-bg);
+  font-weight: 500;
+}
+
+.happy-hours-container p {
+  font-size: 15px;
+  color: var(--text-white);
+  padding: 3rem 0;
 }
