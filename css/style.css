@@ -62,6 +62,7 @@ h3 {
 
 :root {
   --btn-bg: #db9423;
+  --chefs-icons-bg: #f6e5ca;
   --hover-color: #ed7a00;
   --text-white: #fff;
   --text-black: #000;
@@ -744,7 +745,7 @@ header#about-page-header {
   padding: 1.5rem 0;
 }
 
-.about-us-text .divider {
+.divider {
   width: 50px;
   height: 2px;
   background: var(--btn-bg);
@@ -824,6 +825,7 @@ header#about-page-header {
 .core-values h2 {
   font-size: 42px;
   font-weight: 500;
+  padding: 1rem;
 }
 
 .food-policy p,
@@ -832,4 +834,60 @@ header#about-page-header {
   line-height: 26px;
   padding: 1rem;
   width: 90%;
+}
+
+/** Renowned Chefs Section  */
+.renowned-chefs-container {
+  padding: 10rem 2rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.renowned-chefs-section-description {
+  flex: 1;
+}
+
+.chefs-container {
+  flex: 1.5;
+}
+
+.renowned-chefs-section-description h2 {
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.renowned-chefs-section-description h5 {
+  font-size: 17px;
+  font-weight: normal;
+  padding: 1rem 0 2rem;
+}
+
+.renowned-chefs-section-description p {
+  font-size: 15px;
+  color: var(--text-light-dark);
+  line-height: 26px;
+  padding-bottom: 5rem;
+  width: 90%;
+}
+
+.renowned-chefs-section-description h3 {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 1.5rem 0;
+}
+
+.renowned-chefs-section-description h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.renowned-chefs-section-description p:nth-child(7) {
+  padding-bottom: 3rem;
+}
+
+.chef-social-icons a {
+  background-color: var(--chefs-icons-bg);
+  color: var(--btn-bg);
 }
