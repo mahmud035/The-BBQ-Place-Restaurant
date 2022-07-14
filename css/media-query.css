@@ -449,4 +449,9 @@
   .renowned-chefs-section-description h2 {
     font-size: 30px;
   }
+
+  /** Review Us Section  */
+  .review-us-container h2 {
+    font-size: 30px;
+  }
 }

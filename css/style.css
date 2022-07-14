@@ -925,3 +925,46 @@ header#about-page-header {
   background-color: var(--chefs-icons-bg);
   color: var(--btn-bg);
 }
+
+/** Review Us Section  */
+.review-us-container {
+  padding: 2rem 1rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.review-us-container h2 {
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.review-us-icon a {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: var(--text-white);
+  margin-right: 10px;
+  padding: 7px 10px;
+  border: 2px dotted #fff;
+  transition: 0.3s ease;
+}
+
+.review-us-icon a:nth-child(1) {
+  background-color: #3b5998;
+}
+
+.review-us-icon a:nth-child(2) {
+  background-color: #af0606;
+}
+
+.review-us-icon a:nth-child(3) {
+  background-color: #589442;
+}
+
+.review-us-icon a:hover {
+  opacity: 0.8;
+  color: #fff;
+}
