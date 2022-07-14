@@ -638,3 +638,26 @@ header#home-page-header {
   background: var(--btn-bg);
   color: var(--text-white);
 }
+
+/** About Page CSS */
+header#about-page-header {
+  height: calc(80vh - 80px);
+  background: url(../images/about-bg-1.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+  position: relative;
+  clip-path: polygon(
+    50% 0%,
+    79% 0,
+    100% 0,
+    100% 100%,
+    67% 99%,
+    50% 93%,
+    31% 100%,
+    0 100%,
+    0 0,
+    18% 0
+  );
+}
