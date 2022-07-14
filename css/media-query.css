@@ -151,6 +151,12 @@
     width: 100%;
     font-size: 13.6px;
   }
+
+  /**  Our Resto. Section  */
+
+  .our-resto-container p {
+    width: 90%;
+  }
 }
 
 @media (max-width: 850px) {
@@ -216,6 +222,16 @@
   .feedback-container {
     grid-template-columns: 1fr;
     gap: 3rem;
+  }
+
+  /**  Our Resto. Section  */
+  .our-resto-container h2 {
+    font-size: 40px;
+  }
+
+  .our-resto-container p {
+    font-size: 13.6px;
+    width: 100%;
   }
 }
 
@@ -343,5 +359,14 @@
 
   .customer-info > span {
     font-size: 13.6px;
+  }
+
+  /**  Our Resto. Section  */
+  .our-resto-container h2 {
+    font-size: 30px;
+  }
+
+  .our-resto-container {
+    padding: 2rem 0;
   }
 }
