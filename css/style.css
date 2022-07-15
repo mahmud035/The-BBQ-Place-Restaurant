@@ -1258,3 +1258,43 @@ textarea {
 form a.feedback-btn {
   margin-top: 18px;
 }
+
+/**  Opening Time and Discount Section */
+.opening-time-and-discount-section-container {
+  padding: 1rem;
+  text-align: center;
+}
+
+.opening-time-and-discount-section-container h3 {
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+
+.opening-time-and-discount-section-container p:nth-child(3),
+.opening-time-and-discount-section-container p:nth-child(4) {
+  font-size: 20px;
+  color: var(--text-light-dark);
+  padding-bottom: 1rem;
+}
+
+.opening-time-and-discount-section-container h2 {
+  font-size: 45px;
+  font-weight: 500;
+  padding-bottom: 1.2rem;
+}
+
+p.offer {
+  font-size: 1.5rem;
+  color: var(--text-light-dark);
+  padding-bottom: 1.2rem;
+}
+
+.opening-time-and-discount-section-container p:last-child {
+  font-size: 15px;
+}
+
+.opening-time-and-discount-section-container > img:first-child {
+  margin-inline: auto;
+  margin-bottom: 3rem;
+}
