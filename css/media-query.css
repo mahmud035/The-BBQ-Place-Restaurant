@@ -300,6 +300,35 @@
     font-size: 13.6px;
     width: 100%;
   }
+
+  /** Contact Information Section */
+  .contact-info-container h2 {
+    font-size: 40px;
+  }
+
+  .contact-info-container > p:nth-child(2) {
+    font-size: 15px;
+  }
+
+  .contact-info-container > p:nth-child(3) {
+    font-size: 13.6px;
+
+    width: 70%;
+  }
+
+  .phone-number-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .phone-number-info h3 {
+    font-size: 28px;
+  }
+
+  .phone-number-info p {
+    font-size: 1.4rem;
+  }
 }
 
 @media (max-width: 700px) {
@@ -512,5 +541,22 @@
 
   .individual-food .food-name p {
     font-size: 13.6px;
+  }
+
+  /** Contact Information Section */
+  .contact-info-container h2 {
+    font-size: 30px;
+  }
+
+  .contact-info-container > p:nth-child(3) {
+    width: 80%;
+  }
+
+  .phone-number-info h3 {
+    font-size: 22px;
+  }
+
+  .phone-number-info p {
+    font-size: 20px;
   }
 }

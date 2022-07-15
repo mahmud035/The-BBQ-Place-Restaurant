@@ -1134,3 +1134,56 @@ header#contact-page-header {
     18% 0
   );
 }
+
+/** Contact Information Section */
+.contact-info-container {
+  padding: 6rem 1rem;
+  text-align: center;
+}
+
+.contact-info-container h2 {
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.contact-info-container > p:nth-child(2) {
+  font-size: 17px;
+  padding: 1.5rem 0 2.5rem;
+}
+
+.contact-info-container > p:nth-child(3) {
+  font-size: 15px;
+  color: var(--text-light-dark);
+  padding-bottom: 3rem;
+  width: 50%;
+  margin-inline: auto;
+}
+
+.phone-number-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.vertical-divider {
+  width: 2px;
+  height: 100px;
+  background: var(--btn-bg);
+}
+
+.phone-number-info h3 {
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.phone-number-info p {
+  font-size: 1.5rem;
+}
+
+.contact-info-container > img {
+  margin-inline: auto;
+  margin-top: 5rem;
+}
