@@ -1109,3 +1109,28 @@ header#menu-page-header {
 .individual-food .food-price {
   font-size: 1.5rem;
 }
+
+/** -------------Contact Page CSS--------------- */
+/** Header*/
+header#contact-page-header {
+  height: calc(80vh - 80px);
+  background: url(../images/contact-bg-1.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  position: relative;
+  clip-path: polygon(
+    50% 0%,
+    79% 0,
+    100% 0,
+    100% 100%,
+    67% 99%,
+    50% 93%,
+    31% 100%,
+    0 100%,
+    0 0,
+    18% 0
+  );
+}
