@@ -218,6 +218,12 @@
   .core-values p {
     width: 100%;
   }
+
+  /** Food Pricing Section  */
+  .food-pricing-container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 850px) {
@@ -481,5 +487,30 @@
 
   .best-bbq-img-container {
     flex-direction: column;
+  }
+
+  /** Food Pricing Section  */
+
+  .food-pricing-container {
+    text-align: center;
+  }
+
+  .item-common-name {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .individual-food {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .individual-food .food-name h3,
+  .individual-food .food-price {
+    font-size: 20px;
+  }
+
+  .individual-food .food-name p {
+    font-size: 13.6px;
   }
 }
