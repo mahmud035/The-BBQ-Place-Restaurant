@@ -179,6 +179,7 @@ header#home-page-header {
   background: url(../images/home-bg-1.jpg) no-repeat;
   background-position: center center;
   background-size: cover;
+  background-attachment: fixed;
   background-color: rgba(0, 0, 0, 0.35);
   background-blend-mode: overlay;
   clip-path: polygon(
@@ -647,6 +648,7 @@ header#about-page-header {
   background: url(../images/about-bg-1.jpg) no-repeat;
   background-position: center center;
   background-size: cover;
+  background-attachment: fixed;
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: overlay;
   position: relative;
@@ -979,6 +981,7 @@ header#menu-page-header {
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: overlay;
+  background-attachment: fixed;
   position: relative;
   clip-path: polygon(
     50% 0%,
@@ -992,4 +995,81 @@ header#menu-page-header {
     0 0,
     18% 0
   );
+}
+
+/** Best BBQ and Steaks Section */
+.best-bbq-and-steaks-container {
+  padding: 7rem 1rem 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.best-bbq-and-steaks-description {
+  text-align: center;
+}
+
+.best-bbq-and-steaks-description h2 {
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.best-bbq-and-steaks-description p:nth-child(2) {
+  font-size: 17px;
+  padding: 1.5rem 0 2.5rem;
+}
+
+.best-bbq-and-steaks-description p:nth-child(3) {
+  font-size: 15px;
+  color: var(--text-light-dark);
+  line-height: 26px;
+  width: 50%;
+  margin-inline: auto;
+  padding-bottom: 3rem;
+}
+
+.best-bbq-and-steaks-description > img {
+  margin-inline: auto;
+}
+
+.best-bbq-img-container {
+  padding: 3rem 3rem 1rem 1rem;
+  margin-bottom: -7rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.best-bbq-img {
+  position: relative;
+}
+
+.best-bbq-img > img {
+  width: 300px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+
+  filter: blur(1.1px);
+}
+
+.best-bbq-text {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  /* transform: translate(-60%, -20%); */
+  color: var(--text-white);
+}
+
+.best-bbq-text h3 {
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.best-bbq-text p {
+  font-size: 24px;
+  padding-top: 1rem;
 }
