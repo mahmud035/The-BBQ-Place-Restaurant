@@ -1072,3 +1072,60 @@ header#menu-page-header {
   font-size: 24px;
   padding-top: 1rem;
 }
+
+/** Food Pricing Section  */
+.food-pricing-container {
+  padding: 4rem 1rem 5rem;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 5rem;
+}
+
+.beverage-food-container,
+.dessert-food-container {
+  flex: 1;
+}
+
+.beverage-food-container,
+.dessert-food-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.item-common-name {
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.food-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  align-items: flex-start;
+}
+
+.food-item {
+  font-family: 'Poppins', sans-serif;
+  padding: 0 2rem 0 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.food-item .food-name h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 12px;
+}
+
+.food-item .food-name p {
+  font-size: 15px;
+  color: var(--text-light-dark);
+}
+
+.food-item .food-price {
+  font-size: 1.5rem;
+}
