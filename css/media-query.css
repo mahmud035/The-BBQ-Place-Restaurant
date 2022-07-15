@@ -163,6 +163,25 @@
   .chefs-container {
     width: 100%;
   }
+
+  /** Best BBQ and Steaks Section */
+  .best-bbq-and-steaks-container.container {
+    width: 97%;
+  }
+
+  .best-bbq-and-steaks-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .best-bbq-img-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .best-bbq-and-steaks-description p:nth-child(3) {
+    width: 65%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -453,5 +472,14 @@
   /** Review Us Section  */
   .review-us-container h2 {
     font-size: 30px;
+  }
+
+  /** Best BBQ and Steaks Section */
+  .best-bbq-and-steaks-description h2 {
+    font-size: 30px;
+  }
+
+  .best-bbq-img-container {
+    flex-direction: column;
   }
 }

@@ -1048,7 +1048,7 @@ header#menu-page-header {
 
 .best-bbq-img > img {
   width: 300px;
-  height: 500px;
+  height: 450px;
   object-fit: cover;
   border-radius: 10px;
 
@@ -1057,9 +1057,8 @@ header#menu-page-header {
 
 .best-bbq-text {
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 10%;
-  /* transform: translate(-60%, -20%); */
   color: var(--text-white);
 }
 
