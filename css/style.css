@@ -1187,3 +1187,74 @@ header#contact-page-header {
   margin-inline: auto;
   margin-top: 5rem;
 }
+
+/** Contact Page FeedBack Section */
+.contact-page-feedback-container {
+  padding: 2rem 1rem 3rem;
+}
+
+.feedback-section-info h3 {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.feedback-section-info p {
+  font-size: 15px;
+  color: var(--text-light-dark);
+  text-align: center;
+  line-height: 26px;
+  width: 50%;
+  margin-inline: auto;
+  padding: 1rem 0 0;
+}
+
+.feedback-form-and-map-container {
+  padding: 4rem 0;
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.feedback-form-and-map-container form,
+.map-container {
+  flex: 1;
+}
+
+.feedback-form-and-map-container form {
+  padding: 0 2rem 2rem;
+}
+
+.feedback-form-and-map-container form input[type='text'],
+.feedback-form-and-map-container form input[type='email'],
+.feedback-form-and-map-container form input[type='number'],
+.feedback-form-and-map-container form textarea {
+  display: block;
+  width: 100%;
+  padding: 12px 10px;
+  margin-top: 18px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  outline: none;
+  background-color: #fafafa;
+  transition: 0.3s ease;
+}
+
+.feedback-form-and-map-container form input:nth-child(1) {
+  margin-top: 0;
+}
+
+.feedback-form-and-map-container form input[type='text']:focus,
+.feedback-form-and-map-container form input[type='email']:focus,
+.feedback-form-and-map-container form input[type='number']:focus,
+.feedback-form-and-map-container form textarea:focus {
+  outline: 1px solid var(--btn-bg);
+}
+
+textarea {
+  resize: none;
+}
+
+form a.feedback-btn {
+  margin-top: 18px;
+}

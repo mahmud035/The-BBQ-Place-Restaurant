@@ -224,6 +224,20 @@
     grid-template-columns: 1fr;
     justify-content: center;
   }
+
+  /** Contact Page FeedBack Section */
+  .feedback-form-and-map-container {
+    flex-direction: column;
+  }
+
+  .feedback-form-and-map-container form,
+  .map-container {
+    width: 100%;
+  }
+
+  .map-container img {
+    margin-inline: auto;
+  }
 }
 
 @media (max-width: 850px) {
@@ -328,6 +342,10 @@
 
   .phone-number-info p {
     font-size: 1.4rem;
+  }
+
+  .feedback-form-and-map-container form {
+    padding: 0 0 2rem;
   }
 }
 
