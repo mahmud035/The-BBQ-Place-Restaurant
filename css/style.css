@@ -173,7 +173,7 @@ a.btn:hover {
   border-radius: 10px;
 }
 
-/** Header */
+/** Header (Parallax) */
 header#home-page-header {
   height: calc(100vh - 80px);
   background: url(../images/home-bg-1.jpg) no-repeat;
@@ -336,7 +336,7 @@ header#home-page-header {
   filter: grayscale(0);
 }
 
-/** Featured Delicious Section  */
+/** Featured Delicious Section (Parallax)  */
 .featured-delicacies-area {
   padding: 3rem 0 2rem;
   background: url(../images/home-bg-2.jpg) no-repeat;
@@ -437,7 +437,7 @@ header#home-page-header {
   object-fit: cover;
 }
 
-/** Happy Hours Section */
+/** Happy Hours Section (Parallax) */
 .happy-hours-area {
   padding: 1rem 0 5rem;
   background: url(../images/home-bg-3.jpg) no-repeat;
@@ -571,7 +571,7 @@ header#home-page-header {
   color: var(--text-light-dark);
 }
 
-/** Footer  */
+/** Footer (Parallax) */
 .footer-area {
   margin-top: 8rem;
   background: url(../images/home-bg-4.jpg) no-repeat;
